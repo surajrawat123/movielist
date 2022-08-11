@@ -11,7 +11,7 @@ const Detail = () => {
         <div className='detail-container'>
             <div className='movie-page'>
                 <div>
-                    <img className='movie-image' src={state.imageUrl} alt='movie image' />
+                    <img className='movie-image' src={state.image} alt='movie' />
                     <p className='movie-title'>{state.title}</p>
                 </div>
                 <div className='info'>

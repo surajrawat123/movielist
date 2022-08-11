@@ -34,7 +34,7 @@ const Home = () => {
             <div className='movies'>
                 {data.components[1].items.map((e) => (
                     <div className='movie' onClick={() => detailsPage(e)}>
-                        <img className='movie-img' src={e.imageUrl} alt='movie image' />
+                        <img className='movie-img' src={e.image} alt='movie' />
                         <p className='movie-title'>{e.title}</p>
                     </div>
                 ))}
@@ -44,3 +44,5 @@ const Home = () => {
 }
 
 export default Home;
+
+
